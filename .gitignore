@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+config.yaml
+input_history.txt
+downloaded_file*
+.planning/
+node_modules/
+dist/
+build/
+.env
+venv/
+.ultraman/
+*.db
+*.sqlite
+brain_journal.json
+datasets/
+logs/
