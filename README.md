@@ -24,6 +24,7 @@ ULTRAMAN is a self-evolving AI assistant that:
 ```bash
 python install.py
 ```
+also download the ultraman.exe file
 
 ### Run
 
