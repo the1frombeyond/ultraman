@@ -85,8 +85,8 @@ ollama pull llama3.1
 ### Option 1: Quick Install (Recommended)
 
 ```bash
-git clone https://github.com/the1frombeyond/HAIL.MARY.git
-cd HAIL.MARY
+git clone https://github.com/the1frombeyond/ultraman.git
+cd ultraman
 python install.py
 ```
 
