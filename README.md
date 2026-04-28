@@ -1,3 +1,4 @@
+<img width="453" height="96" alt="Screenshot 2026-04-26 121333" src="https://github.com/user-attachments/assets/bcc9051e-9445-4966-a9ac-9edac6d041c7" />
 # ULTRAMAN
 
 **Your Personal AI Assistant That Remembers You**
