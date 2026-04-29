@@ -1,178 +1,213 @@
 <img width="453" height="96" alt="Screenshot 2026-04-26 121333" src="https://github.com/user-attachments/assets/bcc9051e-9445-4966-a9ac-9edac6d041c7" />
-# ULTRAMAN
+# ⚡ ULTRAMAN
 
-**Your Personal AI Assistant That Remembers You**
-
----
-
-## What is ULTRAMAN?
-
-ULTRAMAN is a self-evolving AI assistant that:
-
-- Remembers your preferences and context
-- Helps you build anything
-- Learns from your interactions
-- Works entirely offline with local AI models
-
-> *"I don't just answer questions - I remember you and get better over time."*
+**A personal AI that remembers you, adapts to you, and evolves over time.**
 
 ---
 
-## Quick Start
+## 🚀 Install & Run
 
-### Install (30 seconds)
+### ⚡ Option 1 — Instant (Recommended)
+
+Run directly with NPX:
 
 ```bash
-python install.py
+npx ultraman-ai
 ```
-also download the ultraman.exe file
 
-### Run
+No installation required.
+
+---
+
+### 🪟 Option 2 — Windows App
+
+Download and run:
+
+👉 **ULTRAMAN.exe**
+
+After setup:
 
 ```bash
 ultraman
 ```
 
-That's it. No configuration needed.
-
 ---
 
-## Features
-
-### Memory That Lasts
-ULTRAMAN remembers your preferences, your projects, and your context across sessions.
-
-### Self-Improving
-Tell ULTRAMAN when it gets something wrong, and it learns. Each correction makes it better.
-
-### 180+ Built-in Tools
-File operations, code execution, web search, Docker management, database tools, and more.
-
-### Privacy First
-Your data stays on your machine. No cloud, no external servers.
-
-### Behavior Routing
-ULTRAMAN analyzes what you're asking and routes to the right mode - fast responses, deep reasoning, or creative exploration.
-
----
-
-## Requirements
-
-- Python 3.10+
-- Ollama (for local AI models)
-
-### Recommended: Ollama
-
-For the best experience, install Ollama:
+### 🐧 Option 3 — Linux / macOS
 
 ```bash
-# macOS/Linux
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Windows
-# Download from https://ollama.com/download
+curl -fsSL https://raw.githubusercontent.com/the1frombeyond/HAIL.MARY/main/install.sh | bash
 ```
 
-Then pull a model:
-
-```bash
-ollama pull llama3.1
-```
-
----
-
-## Installation Options
-
-### Option 1: Quick Install (Recommended)
-
-```bash
-git clone https://github.com/the1frombeyond/ultraman.git
-cd ultraman
-python install.py
-```
-
-### Option 2: Executable
-
-Download `ULTRAMAN.exe` from releases and double-click to install.
-
----
-
-## Usage
-
-### Basic Chat
+Then run:
 
 ```bash
 ultraman
-> You: Help me write a Python script
 ```
 
-### Pass Arguments Directly
+---
+
+## 🧠 What is Ultraman?
+
+Ultraman is a **persistent AI system**, not just a chatbot.
+
+It:
+
+* remembers you across sessions
+* adapts how it responds
+* uses real system tools
+* improves itself over time
+
+---
+
+## ⚡ Core Features
+
+### 🧠 Persistent Memory
+
+Ultraman stores:
+
+* preferences
+* goals
+* past interactions
+
+…and uses them in future responses.
+
+---
+
+### 🎯 Behavior Router (Adaptive Intelligence)
+
+Before responding, Ultraman decides how to think:
+
+* ⚡ Fast mode → quick answers
+* 🧠 Deep mode → reasoning
+* 📋 Planning mode → structured output
+* 🔁 Memory mode → recall context
+
+---
+
+### 🛠️ System Tools (Executors)
+
+Run real commands directly:
+
+| Command | Description              |
+| ------- | ------------------------ |
+| `/npm`  | Run npm commands         |
+| `/npx`  | Execute npx packages     |
+| `/pip`  | Install Python packages  |
+| `/curl` | Fetch external resources |
+
+---
+
+### 🔁 Self-Improving
+
+Ultraman:
+
+* logs mistakes
+* learns from them
+* improves future responses
+
+---
+
+## 💻 Usage
+
+Start:
 
 ```bash
-ultraman "What files changed today?"
+ultraman
 ```
 
-### Learn from Feedback
+Or run directly:
 
 ```bash
-> ULTRAMAN: Here's the code...
-> You: That approach is wrong because...
-```
-
-ULTRAMAN logs this and improves.
-
----
-
-## Commands
-
-| Command | Description |
-|---------|-------------|
-| `/help` | Show all commands |
-| `/skills` | List available skills |
-| `/memory` | View memory stats |
-| `/brain` | Switch AI model |
-| `/exit` | Exit ULTRAMAN |
-
----
-
-## Directory Structure
-
-All data is stored in `~/.ultraman/`:
-
-```
-~/.ultraman/
-├── lifeline/       # Personality & identity
-├── brain/         # Memory database
-├── skills/        # Skill modules
-├── sessions/      # Conversation history
-└── config.yaml   # Your configuration
+ultraman build me a website
 ```
 
 ---
 
-## Troubleshooting
+## ⚡ Example
 
-### "Ollama not running"
-```bash
-ollama serve
+```
+You: I like Eritrean music
 ```
 
-### "Model not found"
-```bash
-ollama pull llama3.1
+Later:
+
+```
+Ultraman: Based on your interest in Eritrean music, here's something you might like...
 ```
 
-### Need help?
-Open an issue on GitHub.
+👉 This is where Ultraman stands out.
 
 ---
 
-## License
+## ⚔️ Comparison
 
-MIT License
+| Feature           | Typical AI Tools | Ultraman |
+| ----------------- | ---------------- | -------- |
+| Remembers you     | ❌                | ✅        |
+| Adapts behavior   | ❌                | ✅        |
+| System tools      | ⚠️               | ✅        |
+| Self-improving    | ❌                | ✅        |
+| One-command usage | ❌                | ✅        |
 
 ---
 
-**Built by the1frombeyond | H.A.I.L. MARY Project**
+## 🧠 Architecture (Simplified)
 
-*"The future is personal AI that respects your privacy."*
+Ultraman includes:
+
+* Memory system (structured + searchable)
+* Behavior router (decision layer)
+* Tool execution system (npm, pip, shell)
+* Self-improvement engine
+
+---
+
+## 📦 First Run
+
+On first run, Ultraman will:
+
+* initialize `~/.ultraman/`
+* load memory system
+* load tools
+* prepare environment
+
+Then:
+
+```
+> You:
+```
+
+---
+
+## 🌍 Roadmap
+
+* [ ] Cross-platform binaries
+* [ ] Auto-updates
+* [ ] Plugin / skill marketplace
+* [ ] Web interface
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+* Open issues
+* Suggest features
+* Submit PRs
+
+---
+
+## 📜 License
+
+MIT — Built by **the1frombeyond**
+
+---
+
+## ⚡ Final Thought
+
+> Most AI resets every time you use it.
+> Ultraman remembers — and evolves.
+
+---
